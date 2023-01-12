@@ -19,8 +19,11 @@
 ul {
   li {
     cursor: pointer;
+    transition-duration: 0.2s;
     &:hover {
+      transition-duration: 0.2s;
       color: theme("colors.secondary");
+      transform: translateY(-3px);
     }
   }
 }

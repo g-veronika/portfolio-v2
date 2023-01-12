@@ -1,7 +1,8 @@
 <template>
   <div class="flex flex-col min-h-screen bg-primary text-white font-arial">
     <Header />
-    <RouterView />
+    <HomeView />
+    <FormationsView />
     <Footer />
   </div>
 </template>
@@ -10,4 +11,6 @@
 import { RouterLink, RouterView } from "vue-router";
 import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
+import HomeView from "./views/HomeView.vue";
+import FormationsView from "./views/FormationsView.vue";
 </script>
