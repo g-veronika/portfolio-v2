@@ -1,12 +1,16 @@
 <template>
-  <div class="flex flex-1 p-36 min-h-screen">
+  <div class="flex flex-1 min-h-screen lg:p-36">
     <div class="flex flex-col w-9/12 m-auto">
-      <h1 class="text-secondary font-bold text-3xl">Bonjour, je m'appelle</h1>
-      <h2 class="text-4xl font-bold text-smooth-white">Veronika.</h2>
-      <h3 class="opacity-60 font-bold mt-6 mb-6 text-4xl">
+      <h1 class="text-secondary font-bold text-xl lg:text-3xl">
+        Bonjour, je m'appelle
+      </h1>
+      <h2 class="text-2xl font-bold text-smooth-white lg:text-4xl">
+        Veronika.
+      </h2>
+      <h3 class="opacity-60 font-bold mt-6 mb-6 text-xl lg:text-4xl">
         Je crée des choses pour le web.
       </h3>
-      <p class="text-xl">
+      <p class="lg:text-xl">
         Je m'épanouis en résolvant des problèmes et en apprenant de nouvelles
         choses.
       </p>
@@ -19,7 +23,7 @@
         <img
           src="@/images/homepage-img.svg"
           alt="homepage image"
-          class="w-2/4"
+          class="w-[400px]"
         />
       </div>
     </div>

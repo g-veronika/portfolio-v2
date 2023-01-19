@@ -1,11 +1,13 @@
 <template>
   <div>
-    <ul class="flex justify-end gap-x-8 pt-8 items-center">
+    <ul
+      class="flex gap-x-4 justify-center lg:flex lg:justify-end lg:ap-x-8 pt-8 items-center"
+    >
       <li class="">Accueil</li>
       <li class="">Expériences</li>
       <li class="">Projets</li>
       <li
-        class="mr-8 border-2 border-secondary rounded px-4 py-3 text-secondary animate-pulse"
+        class="w-[100px] text-center lg:mr-8 border-2 border-secondary rounded px-4 py-3 text-secondary animate-pulse"
       >
         Contact
       </li>
