@@ -1,7 +1,7 @@
 <template>
-  <div class="">
+  <div class="exp-container">
     <h1
-      class="flex justify-center w-4/5 m-auto text-2xl font-bold lg:text-3xl lg:justify-start"
+      class="flex justify-center items-center w-4/5 m-auto text-2xl font-bold lg:text-3xl"
     >
       Expérience
     </h1>
@@ -15,7 +15,7 @@
           </div>
           <p class="opacity-60">septembre 2021 - octobre 2022</p>
         </div>
-        <div class="text-smooth-white flex flex-col m-8 lg:w-1/4 lg:m-0">
+        <div class="lg:w-[50%] text-smooth-white flex flex-col m-8 lg:m-0">
           <ul class="leading-8 list-disc lg:text-lg">
             <li>Conception et développement du site de l'entreprise</li>
             <li>
@@ -36,3 +36,27 @@
     </div>
   </div>
 </template>
+<style scoped lang="scss">
+h1 {
+  &::before {
+    content: "";
+    display: block;
+    position: relative;
+    width: 300px;
+    height: 1px;
+    margin-right: 20px;
+    background-color: theme("colors.smooth-white");
+    opacity: 0.3;
+  }
+  &::after {
+    content: "";
+    display: block;
+    position: relative;
+    width: 300px;
+    height: 1px;
+    margin-left: 20px;
+    background-color: theme("colors.smooth-white");
+    opacity: 0.3;
+  }
+}
+</style>

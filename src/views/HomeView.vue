@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-1 min-h-screen lg:p-36">
+  <div class="home-container flex flex-1 min-h-screen lg:p-36">
     <div class="flex flex-col w-9/12 m-auto">
       <h1 class="text-secondary font-bold text-xl lg:text-3xl">
         Bonjour, je m'appelle
