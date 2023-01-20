@@ -1,7 +1,7 @@
 <template>
   <div class="exp-container">
     <h1
-      class="flex justify-center items-center w-4/5 m-auto text-2xl font-bold lg:text-3xl"
+      class="flex justify-center items-center w-4/5 m-auto text-2xl font-bold lg:text-3xl pt-8 lg:pt-0"
     >
       Expérience
     </h1>

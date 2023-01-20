@@ -15,6 +15,7 @@
         choses.
       </p>
       <button
+        @click="scrollTo"
         class="self-baseline mt-6 font-bold border-2 border-secondary rounded px-4 py-3 text-secondary"
       >
         Expérience
@@ -30,7 +31,13 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const scrollTo = () => {
+  document
+    .querySelector(".exp-container")
+    ?.scrollIntoView({ behavior: "smooth", block: "center" });
+};
+</script>
 
 <style scoped lang="scss">
 button {
